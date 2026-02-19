@@ -3,7 +3,7 @@ name = "cv-webcam-object-detection"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python =">=3.11,<3.13"
+requires-python = ">=3.11,<3.13"
 dependencies = [
     "numpy>=2.4.2",
     "opencv-python-headless>=4.10.0.84",
