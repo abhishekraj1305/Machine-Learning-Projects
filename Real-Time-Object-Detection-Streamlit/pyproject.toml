@@ -1,0 +1,14 @@
+[project]
+name = "cv-webcam-object-detection"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=2.4.2",
+    "opencv-python>=4.13.0.92",
+    "pyyaml>=6.0.3",
+    "streamlit>=1.54.0",
+    "streamlit-webrtc>=0.64.5",
+    "ultralytics>=8.4.14",
+]

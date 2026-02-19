@@ -1,0 +1,19 @@
+camera_index: 0
+
+model: yolov8n.pt
+imgsz: 640
+conf: 0.35
+iou: 0.45
+
+# If empty -> allow all classes
+# Example: ["person", "cell phone"]
+class_filter: []
+
+# Alert when any of these are detected
+alert_classes: ["cell phone"]
+
+save_video: true
+output_path: "outputs/detections.mp4"
+
+show_window: true
+max_fps: 0  # 0 means no limit
