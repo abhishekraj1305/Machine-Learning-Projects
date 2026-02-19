@@ -4,3 +4,10 @@ __pycache__/
 outputs/
 .vscode/*.log
 .DS_Store
+
+# Local-only
+.venv/
+outputs/
+.vscode/
+*.pt
+
